@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/react_homeworks/static/css/main.073c9b0a.css",
-    "main.js": "/react_homeworks/static/js/main.ce35a9ef.js",
-    "static/js/787.0c3f432a.chunk.js": "/react_homeworks/static/js/787.0c3f432a.chunk.js",
-    "static/media/logo.svg": "/react_homeworks/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react_homeworks/static/css/main.db560669.css",
+    "main.js": "/react_homeworks/static/js/main.1269beeb.js",
+    "static/media/DMSans-VariableFont_opsz,wght.ttf": "/react_homeworks/static/media/DMSans-VariableFont_opsz,wght.90130db6a4fc53f17a88.ttf",
     "index.html": "/react_homeworks/index.html",
-    "main.073c9b0a.css.map": "/react_homeworks/static/css/main.073c9b0a.css.map",
-    "main.ce35a9ef.js.map": "/react_homeworks/static/js/main.ce35a9ef.js.map",
-    "787.0c3f432a.chunk.js.map": "/react_homeworks/static/js/787.0c3f432a.chunk.js.map"
+    "main.db560669.css.map": "/react_homeworks/static/css/main.db560669.css.map",
+    "main.1269beeb.js.map": "/react_homeworks/static/js/main.1269beeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ce35a9ef.js"
+    "static/css/main.db560669.css",
+    "static/js/main.1269beeb.js"
   ]
 }
