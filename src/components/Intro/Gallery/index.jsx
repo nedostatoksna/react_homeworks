@@ -7,12 +7,10 @@ const Gallery = () => {
 
     return (
         <>
-            <section className={style.jun_section}>
-                <h1 className={style.sub_title}>
-                Junior
-                </h1>
-                <Card persons={persons}/>
-            </section>
+            <h1 className={style.sub_title}>
+            Junior
+            </h1>
+            <Card persons={persons}/>
         </>
     )
 };
