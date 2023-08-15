@@ -7,7 +7,7 @@ const Card = ({ persons }) => {
         <>
             {
                 persons.map(person => (
-                    <>
+                    <section className={style.card}>
                         <h1 className={style.name_title}>
                             {person.name}
                         </h1>
@@ -27,7 +27,7 @@ const Card = ({ persons }) => {
                                 <b>Discovered:</b> {person.discovered}
                             </li>
                         </ul>
-                    </>
+                    </section>
                 ))
             }
         </>
