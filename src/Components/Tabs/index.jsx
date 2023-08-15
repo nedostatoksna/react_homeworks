@@ -35,7 +35,6 @@ const Tabs = () => {
     // const [ tabs, setTabs] = useState(tabsInitState); // инициализация состояния
      const [activeTab, setActiveTab] = useState(tabs[0].id);
 
-
     // мы хотим иметь навигационную панель с кнопками,
     //  которые будут переключать состояние компонента Tabs
     // navTabs - отдельный компонент

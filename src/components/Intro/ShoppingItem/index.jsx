@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons from "../Buttons";
+import Buttons from "../../../ui/Button";
 
 const ShoppingItem = ({item, plus, minus}) => {
     

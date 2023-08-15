@@ -1,6 +1,6 @@
 import React from "react";
-import Gallery from "./Components/Gallery";
-import ShoppingCart from "./Components/ShoppingCart";
+import Gallery from "./Gallery";
+import ShoppingCart from "./ShoppingCart";
 
 const Intro = () => {
 

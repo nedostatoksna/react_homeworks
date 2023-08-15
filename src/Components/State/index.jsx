@@ -1,10 +1,17 @@
 import React from "react";
-import style from "./State.module.css";
+import Picture from "./Picture";
+import UpdColor from "./UpdColor";
+import Counter from "./Counter";
+import PackingList from "./PackingList";
 
 const State = () => {
 
     return (
         <>
+            <Picture />
+            <UpdColor />
+            <Counter />
+            <PackingList />
         
         </>
     )

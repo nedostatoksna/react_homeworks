@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Tabs from "./Components/Tabs";
+import Tabs from "./components/Tabs";
 
 function App() {
   return (
