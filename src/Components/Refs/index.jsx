@@ -1,12 +1,13 @@
 import React from "react";
-import style from "./Refs.module.css";
+import Scroll from "./Scroll";
+import Debounced from "./Debounced";
 
 const Refs = () => {
 
     return (
         <>
-        
-        
+            <Scroll />
+            <Debounced />
         </>
     )
 };

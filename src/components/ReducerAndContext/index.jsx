@@ -1,11 +1,14 @@
 import React from "react";
-import style from "./ReducerAndContext.module.css";
+import TaskList from "./TaskList";
+import ThemeSwither from "./ThemeSwitch";
+import Messenger from "./Messenger";
 
 const ReducerAndContext = () => {
-
     return (
         <>
-
+            <TaskList />
+            <ThemeSwither />
+            {/* <Messenger /> */}
         </>
     )
 };

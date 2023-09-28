@@ -3,6 +3,7 @@ import Picture from "./Picture";
 import UpdColor from "./UpdColor";
 import Counter from "./Counter";
 import PackingList from "./PackingList";
+import SpriteJump from "./SpriteJump";
 
 const State = () => {
 
@@ -12,7 +13,7 @@ const State = () => {
             <UpdColor />
             <Counter />
             <PackingList />
-        
+            {/* <SpriteJump /> */}
         </>
     )
 };

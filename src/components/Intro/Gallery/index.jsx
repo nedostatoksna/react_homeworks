@@ -1,16 +1,15 @@
 import React from "react";
 import style from "./Gallery.module.css";
-import Card from "../Card";
+import Card from "./Card";
 import persons from "./persons";
+import SubHeaders from "../../../ui/Headers/SubHeaders";
 
 const Gallery = () => {
 
     return (
         <>
             <section className={style.jun_section}>
-                <h1 className={style.sub_title}>
-                Junior
-                </h1>
+                <SubHeaders>Junior</SubHeaders>
                 <Card persons={persons}/>
             </section>
         </>

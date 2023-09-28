@@ -1,0 +1,24 @@
+.section {
+    width: 500px;
+    padding: 15px 15px 70px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.sprite_wrapper {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+.frame_wrapper {
+    background: url(https://nolra.github.io/react_hw/static/media/jump.c0c4278daf8490784152.png) no-repeat;
+    bottom: 0;
+    height: 390px;
+    left: 0;
+    position: absolute;
+    transition: bottom,left .3s;
+    width: 250px;
+    background-position-x: -330px;
+}

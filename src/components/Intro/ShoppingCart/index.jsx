@@ -1,7 +1,8 @@
 import React from "react";
 import style from "./ShoppingCart.module.css";
-import ShoppingItem from "../ShoppingItem";
+import ShoppingItem from "./ShoppingItem";
 import initialProducts from "./InitialProdacts";
+import SubHeaders from "../../../ui/Headers/SubHeaders";
 import { useState } from "react";
 
 const ShoppingCart = () => {
@@ -35,9 +36,7 @@ const ShoppingCart = () => {
     return (
         <>
         <section className={style.shopping_cart} >
-            <h1 className={style.sub_title}>
-                Middle
-            </h1>
+            <SubHeaders>Middle</SubHeaders>
             <ul className={style.shopping_cart_box}>
                 {
                     cardItems.map( card => (
