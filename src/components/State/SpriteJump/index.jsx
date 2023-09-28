@@ -5,7 +5,7 @@ import SubHeaders from "../../../ui/Headers/SubHeaders";
 
 const SpriteJump = () => {
 
-    const [frameElement, setFrame] = useState(0);
+    const [frame, setFrame] = useState(0);
 
     const move = function(e) {
         setTimeout(setFrame, 3000)

@@ -34,6 +34,7 @@ const Picture = () => {
                 >
                     <img
                         onClick={(e) => changeState(e)}
+                        alt="border changing image"
                         src="https://i.imgur.com/5qwVYb1.jpeg" 
                         width="300px" 
                         className={border.border === true ? style.border_thin : "" } 
