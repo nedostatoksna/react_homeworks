@@ -1,0 +1,79 @@
+.section {
+    width: 500px;
+    padding: 15px 15px 70px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.p_color {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "DM_Sans";
+}
+.input_color {
+    font-size: 16px;
+    font-family: "DM_Sans";
+    padding: 10px;
+    border: none;
+    background:#e9ecef;
+    height: 50px;
+    margin-left: 10px;
+}
+.btns_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn {
+    padding: 10px;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0px 2px;
+    background:  #8a8aff;
+    border: none;
+    color: white;
+}
+.btn:hover {
+    background:  #5f5ffb;
+}
+.btn_add {
+    margin-left: 15px;
+}
+.task_btn {
+    border: none;
+    cursor: pointer;
+    margin: 2px 5px;
+    min-height: 30px;
+    min-width: 50px;
+    padding: 5px;
+}
+.task_btn:hover {
+    background:  #5f5ffb;
+    color: white;
+}
+.list_wrapper {
+    font-family: "DM_Sans";
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.list_checkbox {
+    margin: 6px;
+}
+.item_box {
+    min-width: 250px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.btn_delete {
+    padding: 5px;
+    min-width: 30px;
+    height: 25px;
+}
