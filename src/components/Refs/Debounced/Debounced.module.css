@@ -1,0 +1,25 @@
+.section {
+    width: 500px;
+    padding: 15px 15px 70px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.task_btn {
+    border: none;
+    cursor: pointer;
+    margin: 15px 5px;
+    min-height: 30px;
+    min-width: 50px;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "DM_Sans";
+}
+.task_btn:hover {
+    background:  #5f5ffb;
+    color: white;
+}
+.dish_box {
+    font-family: "DM_Sans";
+}
