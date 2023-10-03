@@ -1,0 +1,39 @@
+.section {
+    width: 500px;
+    padding: 15px 15px 70px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.task_btn {
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    min-height: 30px;
+    min-width: 200px;
+    padding: 5px;
+}
+.task_btn:hover {
+    background:  #5f5ffb;
+    color: white;
+}
+.btns_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+.p_color {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "DM_Sans";
+}
+.link {
+    font-family: "DM_Sans";
+    font-size: 18px;
+}
+.link:active {
+    color: #5f5ffb;
+}

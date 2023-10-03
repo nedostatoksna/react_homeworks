@@ -34,3 +34,6 @@
     font-size: 16px;
     color: white;
 }
+li {
+    list-style-type: none;
+}

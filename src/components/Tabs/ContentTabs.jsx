@@ -7,6 +7,7 @@ import Refs from "../Refs";
 import Headers from "../../ui/Headers";
 import { ThemeContext } from "../ReducerAndContext/ThemeSwitch/ThemeContext";
 import Effect from "../Effect";
+import Routing from "../Routing";
 
 const ContentTabs = ({ tabs, activeTab }) => {
 
@@ -26,7 +27,7 @@ const ContentTabs = ({ tabs, activeTab }) => {
                 </ThemeContext.Provider>
                 { activeTabTitle === "Refs" && <Refs /> }
                 { activeTabTitle === "Effect" && <Effect /> }
-                { activeTabTitle === "Routing" }
+                { activeTabTitle === "Routing" && <Routing /> }
             </section>
         </main>
     )
